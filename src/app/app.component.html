@@ -1,0 +1,15 @@
+<div class="center">
+  <h5 style="text-align: center;color:white;">Register</h5>
+
+  <input class="center-block"  type="text" #box (keyup.enter)="too(box.value)" placeholder="Enter username">
+  <br>
+  <input class="center-block"  type="text" *ngIf="soo" #boxx (keyup.enter)="tooo(boxx.value)" placeholder="Enter email">
+  <br>
+  <input class="center-block"  type="text" *ngIf="sooo" #boxxx (keyup.enter)="t(boxxx.value)" placeholder="Mobile number">
+  <br>
+  <input class="center-block"  type="text" *ngIf="four" #boxxxx (keyup.enter)="tt(boxxxx.value)" placeholder=" EnterPassword">
+  <br>
+  <input class="center-block"  type="text" *ngIf="five" #boxxxxx (keyup.enter)="ttt(boxxxxx.value)"placeholder="Confirm password">
+  <br>
+  <input type="button" value="submit" *ngIf="b" class="button">
+</div>

@@ -1,0 +1,33 @@
+p {
+  font-family: Lato;
+}
+
+.center {
+  border-radius: 15px;
+  width: 400px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  background-color: blue;
+  margin-left: auto;
+  margin-right: auto;
+}
+.center-block {
+  margin: auto;
+  display: block;
+  border-radius: 2px;
+  height: 20px;
+}
+.button {
+  margin: auto;
+  display: block;
+  border-radius: 2px;
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 5px 25px;
+  text-align: center;
+  text-decoration: none;
+
+  cursor: pointer;
+}
